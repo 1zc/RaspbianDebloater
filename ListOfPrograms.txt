@@ -18,3 +18,4 @@ Added to repository with v1.1 update of the JessieDebloater.sh script.
 > Node-RED
 > THONNY
 > Epiphany Browser
+> Dillo
