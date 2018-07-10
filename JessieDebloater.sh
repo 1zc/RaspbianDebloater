@@ -15,11 +15,11 @@
 			
 #                     -----------------------------------                     #
 #    
-#                       JESSIE DEBLOATER SCRIPT | v1.0                        #
+#                       JESSIE DEBLOATER SCRIPT | v1.1                        #
 #
 #                     -----------------------------------                     #
 
-echo echo Jessie debloater v1.0
+echo echo Jessie debloater v1.1
 echo echo
 echo echo Developed by Liam Z. Charles
 echo echo https://github.com/LiamZC/JessieDebloater
@@ -56,6 +56,8 @@ geany
 greenfoot
 bluej
 nodered
+python3-thonny
+sense-emu-tools
 "
 
 for i in $debloat; do
