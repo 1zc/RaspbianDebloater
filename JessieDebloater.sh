@@ -60,6 +60,7 @@ python3-thonny
 sense-emu-tools
 epiphany-browser-data
 epiphany-browser
+dillo
 "
 
 for i in $debloat; do
