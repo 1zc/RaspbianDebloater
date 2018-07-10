@@ -72,5 +72,5 @@ echo sudo apt-get autoclean -y
 
 echo echo 
 echo echo
-echo echo Debloat process complete successfully.
+echo echo Debloat process completed successfully.
 echo echo 
