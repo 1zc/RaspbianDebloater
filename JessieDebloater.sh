@@ -12,18 +12,18 @@
 # if you encounter any FATAL errors, please create an issue post on the github:
 # https://github.com/LiamZC/JessieDebloater
 
-			
+
 #                     -----------------------------------                     #
-#    
-#                       JESSIE DEBLOATER SCRIPT | v1.1                        #
+#
+#                       JESSIE DEBLOATER SCRIPT | v1.2                        #
 #
 #                     -----------------------------------                     #
 
-echo echo Jessie debloater v1.1
+echo echo Jessie Debloater v1.2
 echo echo
 echo echo Developed by Liam Z. Charles
 echo echo https://github.com/LiamZC/JessieDebloater
-echo echo 
+echo echo
 echo echo This operation will take a VERY long time.
 echo echo
 
@@ -50,7 +50,6 @@ libreoffice-impress
 libreoffice-math
 libreoffice-writer
 claws-mail
-claws-mail-il8n
 geany-common
 geany
 greenfoot
@@ -63,14 +62,26 @@ epiphany-browser
 dillo
 "
 
+echo echo Debloating...
+echo echo
 for i in $debloat; do
-	echo sudo apt-get -y remove --purge $i
+        echo apt-get -qq -y remove --purge $i
 done
+echo echo Done.
 
-echo sudo apt-get autoremove -y
-echo sudo apt-get autoclean -y
+echo echo Removing unused dependencies...
+echo sudo apt-get autoremove -y > /dev/null
+echo echo Done.
+echo echo Cleaning up...
+echo sudo apt-get autoclean -y > /dev/null
+echo echo Done.
 
-echo echo 
+echo echo
 echo echo
 echo echo Debloat process completed successfully.
-echo echo 
+echo echo
+
+
+
+
+
