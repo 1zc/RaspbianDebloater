@@ -17,3 +17,4 @@ Added to repository with v1.1 update of the JessieDebloater.sh script.
 > BlueJay
 > Node-RED
 > THONNY
+> Epiphany Browser
