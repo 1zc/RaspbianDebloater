@@ -19,12 +19,13 @@
 #
 #                     -----------------------------------                     #
 
+echo clear
 echo echo Jessie Debloater v1.2
 echo echo
-echo echo Developed by Liam Z. Charles
-echo echo https://github.com/LiamZC/JessieDebloater
+echo "tput bold; tput setaf 2; echo Developed by Liam Z. Charles"
+echo "tput smul; tput setaf 6; echo https://github.com/LiamZC/JessieDebloater"
 echo echo
-echo echo This operation will take a VERY long time.
+echo "tput rmul; tput bold; tput setaf 1; echo This operation will take a VERY long time."
 echo echo
 
 debloat="
@@ -62,26 +63,22 @@ epiphany-browser
 dillo
 "
 
-echo echo Debloating...
-echo echo
+echo "tput bold; tput setaf 3; echo Debloating..."
 for i in $debloat; do
         echo apt-get -qq -y remove --purge $i
 done
-echo echo Done.
+echo "tput bold; tput setaf 2; echo Done."
 
-echo echo Removing unused dependencies...
+echo "tput bold; tput setaf 3; echo Removing unused dependencies..."
 echo sudo apt-get autoremove -y > /dev/null
-echo echo Done.
-echo echo Cleaning up...
+echo "tput bold; tput setaf 2; echo Done."
+echo "tput bold; tput setaf 3; echo Cleaning up..."
 echo sudo apt-get autoclean -y > /dev/null
-echo echo Done.
+echo "tput bold; tput setaf 2; echo Done."
 
 echo echo
 echo echo
-echo echo Debloat process completed successfully.
-echo echo
-
-
-
+echo "tput smso; tput setaf 6; echo Debloat process completed successfully."
+echo "tput rmso; tput setaf 7; echo "
 
 
