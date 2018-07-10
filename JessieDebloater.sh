@@ -58,6 +58,8 @@ bluej
 nodered
 python3-thonny
 sense-emu-tools
+epiphany-browser-data
+epiphany-browser
 "
 
 for i in $debloat; do
@@ -67,3 +69,7 @@ done
 echo sudo apt-get autoremove -y
 echo sudo apt-get autoclean -y
 
+echo echo 
+echo echo
+echo echo Debloat process complete successfully.
+echo echo 
