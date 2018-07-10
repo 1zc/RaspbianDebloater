@@ -62,5 +62,6 @@ for i in $debloat; do
 	echo sudo apt-get -y remove --purge $i
 done
 
-echo sudo apt-get -y autoremove
+echo sudo apt-get autoremove -y
+echo sudo apt-get autoclean -y
 
