@@ -5,7 +5,7 @@ Tested and working on Raspbian Jessie 2017-07-05 Image, which can be downloaded 
 
 This script should work on all Rasbian Jessie images without any fatal errors.
 
-**INSTALLATION:**
+# INSTALLATION
 
 Step 1 - Make sure you're in the main directory.
 > cd
