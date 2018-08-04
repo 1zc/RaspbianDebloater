@@ -25,7 +25,7 @@ Step 5 - Run the script.
 **The process takes a long time to complete, so I suggest you get some entertainment/snacks ready for the wait. :)**
 
 
-**DOWNLOADS:**
+# MISC DOWNLOADS
 
 Raspbian Jessie 2017-07-05 Image.
 http://downloads.raspberrypi.org/raspbian/images/raspbian-2017-07-05/2017-07-05-raspbian-jessie.zip
