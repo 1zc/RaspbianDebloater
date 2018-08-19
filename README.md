@@ -11,13 +11,13 @@ Step 1 - Make sure you're in the main directory.
 > cd
 
 Step 2 - You'll need to get the script.
-> wget https://github.com/LiamZC/JessieDebloater/blob/master/JessieDebloater.sh
+> wget https://github.com/LiamZC/JessieDebloater/blob/master/RaspbianDebloater.sh
 
 Step 3 - Give the script the needed permissions.
-> sudo chmod +x JessieDebloater.sh
+> sudo chmod +x RaspbianDebloater.sh
 
 Step 4 - Run the script.
-> sh ./JessieDebloater.sh | sudo sh
+> sh ./RaspbianDebloater.sh | sudo sh
 
 **The process takes a long time to complete, so I suggest you get some entertainment/snacks ready for the wait. :)**
 
