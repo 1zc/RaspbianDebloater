@@ -2,28 +2,28 @@
 
 #                         L I A M  Z.  C H A R L E S                          #
 #                     -----------------------------------                     #
-#           JessieDebloater.sh || Raspbian Jessie Debloater Script            #
+#             RaspbianDebloater.sh || Raspbian Debloater Script               #
 
 #                     -----------------------------------                     #
 
 # This script was developed and tested for:
 # RASPBIAN JESSIE --- 2017-07-05 IMAGE (2017-07-05-raspbian-jessie.img)
-# This script will work on all Raspbian Jessie images without any FATAL errors.
+# This script will work on all Raspbian images without any FATAL errors.
 # if you encounter any FATAL errors, please create an issue post on the github:
-# https://github.com/LiamZC/JessieDebloater
+# https://github.com/LiamZC/RaspbianDebloater
 
 
 #                     -----------------------------------                     #
 #
-#                       JESSIE DEBLOATER SCRIPT | v1.2                        #
+#                       RASPBIAN DEBLOATER SCRIPT | v1.2                        #
 #
 #                     -----------------------------------                     #
 
 echo clear
-echo echo Jessie Debloater v1.2
+echo echo Raspbian Debloater v1.2
 echo echo
 echo "tput bold; tput setaf 2; echo Developed by Liam Z. Charles"
-echo "tput smul; tput setaf 6; echo https://github.com/LiamZC/JessieDebloater"
+echo "tput smul; tput setaf 6; echo https://github.com/LiamZC/RaspbianDebloater"
 echo echo
 echo "tput rmul; tput bold; tput setaf 1; echo This operation will take a VERY long time."
 echo echo
