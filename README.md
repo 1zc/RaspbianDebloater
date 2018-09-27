@@ -20,7 +20,7 @@ Step 4 - Give the script the needed permissions.
 > sudo chmod +x RaspbianDebloater.sh
 
 Step 5 - Run the script.
-> sh ./RaspbianDebloater.sh | sudo sh
+> sudo sh RaspbianDebloater.sh
 
 **The process takes a long time to complete, so I suggest you get some entertainment/snacks ready for the wait. :)**
 
