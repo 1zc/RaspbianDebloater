@@ -64,9 +64,11 @@ dillo
 "
 
 echo "tput bold; tput setaf 3; echo Debloating..."
-for i in $debloat; do
-        echo apt-get -qq -y remove --purge $i
-done
+
+echo sudo apt-get --yes remove --purge wolfram-engine sense-hat scratch nuscratch scratch2 sonic-pi minecraft-pi python-minecraftpi penguinspuzzle xpdf libreoffice libreoffice-base libreoffice-base-core libreoffice-base-drivers
+echo sudo apt-get --yes remove --purge libreoffice-calc libreoffice-common libreoffice-core libreoffice-draw libreoffice-gtk libreoffice-impress libreoffice-math libreoffice-writer claws-mail
+echo sudo apt-get --yes remove --purge geany-common geany greenfoot bluej nodered python3-thonny sense-emu-tools epiphany-browser-data epiphany-browser dillo
+
 echo "tput bold; tput setaf 2; echo Done."
 
 echo "tput bold; tput setaf 3; echo Removing unused dependencies..."
