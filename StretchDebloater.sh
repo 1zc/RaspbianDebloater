@@ -2,7 +2,7 @@
 
 #                         L I A M  Z.  C H A R L E S                          #
 #                     -----------------------------------                     #
-#             RaspbianDebloater.sh || Raspbian Debloater Script               #
+#               StretchDebloater.sh || Stretch Debloater Script               #
 
 #                     -----------------------------------                     #
 
@@ -10,17 +10,17 @@
 # RASPBIAN STRETCH
 # This script will work on all Raspbian images without any FATAL errors.
 # if you encounter any FATAL errors, please create an issue post on the github:
-# https://github.com/LiamZC/RaspbianDebloater
+# https://github.com/1zc/RaspbianDebloater
 
 
 #                     -----------------------------------                     #
 #
-#                       RASPBIAN DEBLOATER SCRIPT | v1.2                        #
+#                       STRETCH DEBLOATER SCRIPT | v1.0                       #
 #
 #                     -----------------------------------                     #
 
 clear
-echo Raspbian Debloater v1.3
+echo Stretch Debloater v1.0
 echo
 echo Developed by Liam Z. Charles
 echo https://github.com/1zc/RaspbianDebloater
