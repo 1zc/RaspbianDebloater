@@ -5,16 +5,17 @@ This repository contains two scripts for Raspbian Jessie and Stretch.
 
 # USAGE
 
-Step 1 - Make sure you're in the main directory.
+**Step 1 - Make sure you're in the main directory/whatever directory you want to be in.**
 > cd
 
-Step 2 - You'll need to clone this repository.
+**Step 2 - You'll need to clone this repository.**
 > git clone https://github.com/1zc/RaspbianDebloater/
 
-Step 3 - Get into the new directory
+**Step 3 - Get into the new directory**
 > cd RaspbianDebloater
 
-Step 4 - Run the script you need.
+**Step 4 - Run the script you need.**
+
 If you are on Raspbian Jessie:
 
 > sh JessieDebloater.sh
