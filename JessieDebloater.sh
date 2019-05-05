@@ -2,26 +2,25 @@
 
 #                         L I A M  Z.  C H A R L E S                          #
 #                     -----------------------------------                     #
-#             RaspbianDebloater.sh || Raspbian Debloater Script               #
+#            JessieDebloater.sh || Raspbian Jessie Debloater Script           #
 
 #                     -----------------------------------                     #
 
 # This script was developed and tested for:
 # RASPBIAN JESSIE --- 2017-07-05 IMAGE (2017-07-05-raspbian-jessie.img)
-# RASPBIAN STRETCH
-# This script will work on all Raspbian images without any FATAL errors.
-# if you encounter any FATAL errors, please create an issue post on the github:
-# https://github.com/LiamZC/RaspbianDebloater
+
+# if you encounter any errors, please create an issue post on the github:
+# https://github.com/1zc/RaspbianDebloater
 
 
 #                     -----------------------------------                     #
 #
-#                       RASPBIAN DEBLOATER SCRIPT | v1.2                        #
+#                       JESSIE DEBLOATER SCRIPT | v1.3                        #
 #
 #                     -----------------------------------                     #
 
 echo clear
-echo echo Raspbian Debloater v1.3
+echo echo Jessie Debloater v1.3
 echo echo
 echo echo Developed by Liam Z. Charles
 echo echo https://github.com/1zc/RaspbianDebloater
