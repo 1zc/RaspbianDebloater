@@ -1,5 +1,5 @@
 # RaspbianDebloater
-This is a script that removes all unnecessary software from Raspbian, while leaving it fully functional in terms of Python Development and GUI usage.
+This repository contains scripts that will remove all unnecessary software from Raspbian, while leaving it fully functional in terms of Python Development and GUI usage.
 
 This repository contains two scripts for Raspbian Jessie and Stretch.
 
